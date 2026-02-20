@@ -4,22 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>Comienzos Compartidos</title>
+
+    <link rel="stylesheet" href="./css/styles.css">
+
 </head>
 
 <body>
 
-    <header class="hero">
+    <header id="hero">
 
         <div class=menu>
-            <img src="/images/icon-menu-hamb.svg" alt="icono de menu">
+            <a href="https://adalab.es/"> <img src="/images/icon-menu-hamb.svg" alt="icono de menu">
+            </a>
         </div>
 
         <h1>COMIENZOS<br>COMPARTIDOS</h1>
 
         <p>Todo lo que necesitas para volver al cole con ilusión</p>
 
-        <div class="scroll"> <img src="/images/icon-scroll-down.svg" alt="imagen de flecha hacia abajo">
+        <div>
+            <a href="#backtoschool">
+                <img src="/images/icon-scroll-down.svg" alt="imagen de flecha hacia abajo">
+            </a>
         </div>
 
     </header>
@@ -38,25 +46,25 @@
         <p>¡Prepáralos con tus marcas favoritas!</p>
     </main>
 
-    <section> class="cole">
+    <section id="backtoschool">
         <h4>VUELTA AL COLE</h4>
 
         <div class="product">
-            <img src="/images/image01.webp"
+            <img class="image01" src="/images/image01.webp"
                 alt="imagen de una niña de rasgos orientales con el pelo negro ondulado, una sudadera lila y una mochila negra de la marca puma sonriendo y agarrando la mochila por el hombro">
 
             <p>Mochilas escolares</p>
         </div>
 
         <div class="product2">
-            <img src="/images/image03.webp"
+            <img class="image02" src="/images/image03.webp"
                 alt="niño rubio de expresión feliz con un estuche en la mano lanzando rotuladores hacia la cámara">
 
             <p>Estuches</p>
         </div>
 
         <div class="product3">
-            <img src="/images/image02.webp" alt="niña sonriendo">
+            <img class="image03" src="/images/image02.webp" alt="niña sonriendo">
 
             <p>Bolsas de deporte</p>
         </div>
@@ -64,25 +72,64 @@
 
         <button>Empezar ahora</button>
         <div class="up">
-            <img src="/images/icon-arrow-up.svg" alt="imagen de flecha hacia arriba">
+            <a href="#hero">
+                <img src="/images/icon-arrow-up.svg" alt="imagen de flecha hacia arriba">
+            </a>
         </div>
     </section>
-
+    <!--prueba de comentario-->
     <footer>
+        <nav>
+            <ul>
+                <li>
+                    <a href="https://adalab.es/">
+                        ZAPATILLAS
+                    </a>
+                </li>
+                <li>
+                    <a href="https://adalab.es/">
+                        ROPA
+                    </a>
+                </li>
+                <li>
+                    <a href="https://adalab.es/">
+                        NIÑO/A
+                    </a>
+                </li>
+                <li>
+                    <a href="https://adalab.es/"> DESTACADOS
+                    </a>
+                </li>
+                <li>
+                    <a href="https://adalab.es/">
+                        TIPS
+                    </a>
+                </li>
+            </ul>
+        </nav>
         <ul>
-            <li>ZAPATILLAS</li>
-            <li>ROPA</li>
-            <li>NIÑOA</li>
-            <li>DESTACADOS</li>
-            <li>TIPS</li>
+            <li>
+                <a href="https://adalab.es/">
+                    INSTAGRAM
+                </a>
+            </li>
+            <li>
+                <a href="https://adalab.es/">
+                    YOUTUBE
+                </a>
+            </li>
+            <li>
+                <a href="https://adalab.es/">
+
+                    BLUESKY
+                </a>
+            </li>
         </ul>
-        <ul>
-            <li>INSTAGRAM</li>
-            <li>YOUTUBE</li>
-            <li>BLUESKY</li>
-        </ul>
-        <div class="copy">©2026<br>
-            we 💚 run</div>
+        </nav>
+        <div class="copy">
+            <small>&copy;2026<br>
+                we 💚 run</small>
+        </div>
     </footer>
 
 </body>
