@@ -71,7 +71,14 @@ body {
     border-color: rgba(108, 147, 62, 1);
     padding: 10px 40px;
     font-size: 20px;
+    transition: transform 0.3s ease;
+    box-shadow 0.3s ease;
 
+}
+
+.buy_bottom:hover {
+    transform: scale(1.08) translateY(-3px);
+    box-shadow: 0 8px rgba(0, 0, 0, 0.2);
 }
 
 #backtoschool {
@@ -120,6 +127,12 @@ body {
     border-radius: 50px;
     font-weight: bold;
     font-size: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.start_button:hover {
+    transform: scale(1.08) translateY(-3px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
 }
 
 .arrow_up {
@@ -133,7 +146,22 @@ body {
     height: 60px;
     border-radius: 50%;
     background-color: white;
-    color: rgba(108, 147, 62, 1)
+    color: rgba(108, 147, 62, 1);
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale (1);
+    }
+
+    50% {
+        transform: scale(1.07);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
 
 
