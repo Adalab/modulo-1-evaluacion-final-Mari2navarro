@@ -1,6 +1,142 @@
+. {
+
+    box-sizing: 0;
+}
+
 body {
-    background-color: rgba(217, 228, 204, 1);
+    background-color: transparent;
     font-family: "roboto", sans-serif
 }
 
 /*nunca uses porcentajes en el weigh*/
+#hero {
+    background-image: url(/images/hero-cover.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+
+}
+
+.down_arrow {
+    background-color:
+        border-radius: width:
+}
+
+/*hay que acabar esto*/
+
+.menu {
+    position: fixed top: 20px;
+    left: 50px;
+
+    border: 2px solid black;
+    padding: 10px 15px;
+}
+
+.info {
+    background-color: white;
+    margin: 12px;
+}
+
+.title_2 {
+    color: rgba(108, 147, 62, 1);
+    font-size: 14px;
+}
+
+.title_3 {
+    font-size: 22px;
+}
+
+.main_text {
+    font-size: 18px;
+    text-align: justify;
+
+}
+
+.buy_bottom {
+    background-color: white;
+    border-radius: 22.5px;
+    color: rgba(108, 147, 62, 1);
+    border-color: rgba(108, 147, 62, 1);
+    padding: 10px 40px;
+    font-size: 20px;
+
+}
+
+#backtoschool {
+    background-color: rgba(217, 228, 204, 1);
+    display: grid;
+    place-items: center;
+    grid-template-rows: repeat(2, 2fr);
+    gap: 20px;
+    padding: 20px;
+
+}
+
+.ready {
+    text-align: center;
+    padding: 15px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.title_4 {
+    text-align: center;
+    margin: 5px
+}
+
+.product_list {
+
+    text-align: center;
+    list-style: none;
+
+}
+
+.product {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    font-weight: bold;
+}
+
+.start_button {
+    background-color: rgba(108, 147, 62, 1);
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.arrow_up {
+    position: relative;
+    height: 0;
+    ;
+}
+
+.footer {
+    background-color: rgba(74, 74, 74, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+
+.list_footer {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
